@@ -1,0 +1,7 @@
+# Exclude files that shouldn't be in modpack exports
+.git/
+.gitignore
+*.bat
+*.md
+.mrpack
+ATLAUNCHER_REMOVAL_SUMMARY.md

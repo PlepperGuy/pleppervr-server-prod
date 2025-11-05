@@ -1,0 +1,58 @@
+# Exclude large files and unnecessary items from git
+# Only keep configuration files and documentation
+
+# Large executables and binaries
+*.exe
+*.jar
+*.zip
+*.tar.gz
+
+# Minecraft mods directory (will be handled by modpack)
+minecraft/mods/
+mods/
+
+# Minecraft directories that don't need version control
+minecraft/config/
+minecraft/resourcepacks/
+minecraft/shaderpacks/
+minecraft/saves/
+minecraft/logs/
+minecraft/crash-reports/
+
+# ATLauncher and Prism Launcher specific
+ PrismLauncher/ATLauncher/instances/*/logs/
+ PrismLauncher/ATLauncher/instances/*/crash-reports/
+
+# Large backup files
+*.backup
+*_Backup*/
+PlepperVR_Backup*/
+Backup_*/
+
+# Temporary files
+temp*/
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large cache or library files
+minecraft/libraries/
+minecraft/assets/
+
+# Keep only essential configuration files
+!minecraft/modlist.json
+!minecraft/modlist-lock.json
+!minecraft/.mmmignore
+!instance.cfg
+!CLAUDE.md
+!*.md
+!*.bat
+!pack.json
